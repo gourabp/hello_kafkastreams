@@ -3,7 +3,10 @@
  Step-1 : 
  cd /src/kafkastreamdemo
 
- Step-2 //get the IP address of your machine and update the IP in the docker-compose.yaml file (following command is for mac terminal)
+ Step-2 #get the IP address of your machine and update the IP in the docker-compose.yaml file 
+ # KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://<your ID address>:9092,
+ #(following command is for mac terminal)
+ 
  ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
 
  Step-3
