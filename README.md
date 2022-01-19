@@ -1,7 +1,4 @@
-# kafkastreamsdemo
-
-/*
- How to run this program 
+# kafkastreamsdemo How to run this program 
 
  Step-1 : 
  cd /src/kafkastreamdemo
